@@ -1,0 +1,4 @@
+max with : 1320px
+min with 375
+
+container : 75%

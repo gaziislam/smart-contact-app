@@ -1,0 +1,40 @@
+.main {
+  max-width: 100%;
+}
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.home-area {
+  background: rgba(146, 188, 252, 0.28);
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.home-area picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-area img {
+  width: 100px;
+}
+
+.home-area h1 {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.css-sghohy-MuiButtonBase-root-MuiButton-root {
+  background: red !important;
+}
