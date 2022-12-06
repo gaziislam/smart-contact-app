@@ -1,10 +1,11 @@
 import React from "react"
 import "./index.css"
 import Button from "@mui/material/Button"
+import { Link, useNavigate } from "react-router-dom"
 
 const Home = () => {
   return (
-    <div className="main">
+    <main>
       <div className="container">
         <section className="home-area">
           <picture>
@@ -14,11 +15,13 @@ const Home = () => {
             <h1>Smart Contact</h1>
           </header>
           <div className="button">
-            <Button variant="contained">Contained</Button>
+            <Button variant="contained">
+              <Link to="/login">Get Started</Link>
+            </Button>
           </div>
         </section>
       </div>
-    </div>
+    </main>
   )
 }
 
